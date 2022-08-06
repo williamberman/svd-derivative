@@ -1,4 +1,4 @@
-Python notebooks demonstrating SVD is differentiable in JAX and pytorch
+Python notebooks demonstrating SVD is differentiable (most of the time) in JAX and pytorch
 
 ## Running the notebooks
 
