@@ -1,4 +1,4 @@
-## SVD-differentiable
+## SVD-derivative
 Documentation and implementations of the various forms of SVD's derivative in the context of AD.
 
 ## SVD variants
