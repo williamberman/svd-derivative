@@ -1,7 +1,7 @@
 ## SVD-differentiable
 Documentation and implementations of the various forms of SVD's derivative in the context of AD.
 
-## SVD variants. 
+## SVD variants
 
 Flags - "thin"/"partial" vs "full" and compute only singular values vs the whole factorization. 
 
