@@ -1,7 +1,15 @@
+## SVD-differentiable
 Documentation and implementations of the various forms of SVD's derivative in the context of AD.
 
-SVD has a number of variants. Flags - "thin"/"partial" vs "full" and compute only singular values vs the whole factorization. Input types - real vs complex.
-These variants all change the derivative. Impacting both its value and its numerical stability. There are different resources documenting the different 
+## SVD variants. 
+
+Flags - "thin"/"partial" vs "full" and compute only singular values vs the whole factorization. 
+
+Input types - real vs complex.
+
+These variants all change the derivative, impacting both its value and its numerical stability. 
+
+There are different resources documenting the different 
 derivative variants. The implementations in well known AD codebases (pytorch, tensorflow, and jax) all have slightly different implementations of the derivative.
 
 This python notebook is an attempt to consolidate documentation of the different cases as well as provide example implementations.
